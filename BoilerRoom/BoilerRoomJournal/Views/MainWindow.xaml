@@ -1,0 +1,72 @@
+﻿<Window x:Class="BoilerRoomJournal.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BoilerRoomJournal"
+        mc:Ignorable="d"
+        Title="Журнал оператора котельной" Height="450" Width="800">
+   
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        
+        <Menu >
+            <MenuItem Header="Операции" Height="30">
+                <MenuItem Header="Редактирование списка работников"> </MenuItem>
+                <MenuItem Header="Показать данные за промежуток времени">
+                    <MenuItem Header="Расход воды"> </MenuItem>
+                    <MenuItem Header="Расход газа"> </MenuItem>
+                    <MenuItem Header="ЧП"> </MenuItem>
+                    <MenuItem Header="Замечания в работе котельной"> </MenuItem>
+                </MenuItem>
+                <MenuItem Header="Выход"> </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Справка">
+                <MenuItem Header="Лицензия"> </MenuItem>
+            </MenuItem>
+        </Menu>
+        
+        <StackPanel Grid.Row="1" Height="30" Orientation="Horizontal">
+            <Label Content="Дата: " HorizontalAlignment="Center" FontSize="16"/>
+            <DatePicker x:Name="PageDate" IsDropDownOpen="False"  SelectedDateFormat="Short" FontSize="16"/>
+            <Button FontFamily="Marlett" FontSize="16" Content="3"/>
+            <Button FontFamily="Marlett" FontSize="16" Content="4"/>
+            <Label Content="" Width="80" FontSize="16"/>
+            <ComboBox Name="MyComboBox" FontSize="16"
+                      IsEditable="True"
+                      IsReadOnly="True"
+                      Text="Выбор работника из списка">
+                <TextBlock >Работник 1</TextBlock>
+                <TextBlock FontSize="16">Работник 2</TextBlock>
+                <TextBlock FontSize="16">Работник 3</TextBlock>
+                <TextBlock FontSize="16">Работник 4</TextBlock>
+            </ComboBox>
+        </StackPanel>
+        
+        <StackPanel Orientation="Horizontal" Grid.Row="2">
+            <Label Width="60" Height="100" Margin="5,0,0,0" >
+                <TextBlock TextWrapping="Wrap">Время</TextBlock>
+            </Label>
+            <Label Width="90" Height="100" >
+                <TextBlock TextWrapping="Wrap">Температура на улице С°</TextBlock>
+            </Label>
+            <Label Width="90" Height="100" >
+                <TextBlock TextWrapping="Wrap">Давление газа на котле</TextBlock>
+            </Label>
+            <Label Width="110" Height="100" >
+                <TextBlock TextWrapping="Wrap">Давление воды в системе</TextBlock>
+            </Label>
+            <Label Width="90" Height="100" >
+                <TextBlock TextWrapping="Wrap">Расход воды по часам. м³</TextBlock>
+            </Label>
+        </StackPanel>
+    </Grid>
+    
+
+</Window>
