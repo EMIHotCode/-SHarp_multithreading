@@ -1,0 +1,23 @@
+Создан Class Library - это проект Библиотека классов (выщитывающая фактериал и сумму) Calculator.Core
+Папку Models заменяет библиотека Calculator.Core
+
+App.xaml правим StartupUri="Views/MainWindow.xaml"  так как  MainWindow переместили в папку Views
+
+ReactiveUI
+Обработка событий будет происходить не в разметке кода а во ViewModel
+Подключение ReactiveUI в Calculator.Desktop.csproj прописать строки :
+    <ItemGroup>
+        <PackageReference Include="ReactiveUI" Version="20.1.63" />
+        <PackageReference Include="ReactiveUI.WPF" Version="20.1.63" />
+        <PackageReference Include="ReactiveMarbles.ObservableEvents.SourceGenerator" Version="1.3.1" />
+        <PackageReference Include="ReactiveUI.Fody" Version="19.5.41" />  // чтобы не писать длинный код
+    </ItemGroup>
+чтобы эти библиотеки применились нужно просто собрать проект или запустить проект
+
+Calculator.Desktop\Dependencies \ Add Reference ставим галочку у Calculator.Core чтобы подключить библиотеку к проекту
+ В Calculator.Desktop.csproj появится запись:
+	<ItemGroup>
+      <ProjectReference Include="..\Calculator.Core\Calculator.Core.csproj" />
+    </ItemGroup>
+	
+MainWindowViewModel : ReactiveObject наследуемся 

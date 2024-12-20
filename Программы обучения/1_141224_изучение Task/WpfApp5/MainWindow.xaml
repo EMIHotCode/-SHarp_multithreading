@@ -6,7 +6,7 @@
         
         Height="450" Width="800"
         
-        DataContext="{Binding RelativeSource={RelativeSource Self}}">
+        DataContext="{Binding RelativeSource={RelativeSource Self}}"><!-- окно ссылается само на себя -->
     <StackPanel>
         <StackPanel Orientation="Horizontal">
             <Label Content="Введите число"

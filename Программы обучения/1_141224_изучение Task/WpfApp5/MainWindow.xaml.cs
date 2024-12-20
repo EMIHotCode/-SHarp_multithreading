@@ -27,14 +27,14 @@ public partial class MainWindow : Window, INotifyPropertyChanged
 
     private async void ButtonCalculate_OnClick(object sender, RoutedEventArgs e)
     {
-        ButtonCalculate.IsEnabled = false;
+        ButtonCalculate.IsEnabled = false; // делаем кнопку неактивной после нажатия Вычислить
         
         var number = Convert.ToInt32(ВводЧисла.Text);
 
-        var progressSum = new Progress<int>();
-        progressSum.ProgressChanged += (s, i) =>
+        var progressSum = new Progress<int>(); // экземпляр класса Progress
+        progressSum.ProgressChanged += (s, i) => // событие к которому подписываемся для получения значения
         {
-            ProgressSum.Value = i;
+            ProgressSum.Value = i;  // i это индекс из калькулятор.cs\СуммаAsync \ progress?.Report(число - i);
         };
         
         var progressFactorial = new Progress<int>();
@@ -45,7 +45,7 @@ public partial class MainWindow : Window, INotifyPropertyChanged
 
         await Task.Run(async () =>
         {
-            Sum = await Калькулятор.СуммаAsync(number, progressSum);
+            Sum = await Калькулятор.СуммаAsync(number, progressSum);  // используем progressSum
         });
         
         await Task.Run(async () =>

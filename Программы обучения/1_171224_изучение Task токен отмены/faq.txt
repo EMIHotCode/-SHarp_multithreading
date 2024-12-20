@@ -1,0 +1,16 @@
+продолжение предидущего приложения
+добавлена кнопка отмены 
+калькулятор.cs в параметры функций добавлен токен отмены CancellationToken cancellationToken = default
+токен отмены - это просто переменная которая содержит состояние и мы должны сами проверять в нужный 
+	момент времени. токен отмены должен участвовать во всех асинхронных вызовах внутри асинхронного метода 
+	
+CancellationToken - это структура
+токен отмены нужно передать в Task.Delay чтобы на него тоже распостранялось 
+
+MainWindow.xaml.cs для всего окна создаем единый источник токен отмены (все окно)
+private readonly CancellationTokenSource _cancellationTokenSource = new();
+и каждый раз вызывая методы в MainWindow.xaml.cs передаем в параметрах _cancellationTokenSource.Token
+await Task.Run через запятую получает тоже токен отмены
+
+в методе ButtonCancel_OnClick при нажатии кнопки отмены вызываем асинхронную версию отмены
+await _cancellationTokenSource.CancelAsync();
