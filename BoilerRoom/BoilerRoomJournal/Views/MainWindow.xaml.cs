@@ -7,5 +7,7 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
         PageDate.Text = DateTime.Now.ToString();
+        
     }
+    
 }

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BoilerRoomJournal"
         mc:Ignorable="d"
-        Title="Журнал оператора котельной" Height="450" Width="800">
+        Title="Журнал оператора котельной" Height="450" Width="800" >
    
     <Grid>
         <Grid.RowDefinitions>
@@ -49,24 +49,81 @@
             </ComboBox>
         </StackPanel>
         
-        <StackPanel Orientation="Horizontal" Grid.Row="2">
-            <Label Width="60" Height="100" Margin="5,0,0,0" >
-                <TextBlock TextWrapping="Wrap">Время</TextBlock>
-            </Label>
-            <Label Width="90" Height="100" >
-                <TextBlock TextWrapping="Wrap">Температура на улице С°</TextBlock>
-            </Label>
-            <Label Width="90" Height="100" >
-                <TextBlock TextWrapping="Wrap">Давление газа на котле</TextBlock>
-            </Label>
-            <Label Width="110" Height="100" >
-                <TextBlock TextWrapping="Wrap">Давление воды в системе</TextBlock>
-            </Label>
-            <Label Width="90" Height="100" >
-                <TextBlock TextWrapping="Wrap">Расход воды по часам. м³</TextBlock>
-            </Label>
-        </StackPanel>
-    </Grid>
-    
 
+        
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <TextBlock TextWrapping="Wrap" FontSize="16">Время</TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="1" TextWrapping="Wrap" FontSize="16">Температура на улице С°</TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="2" TextWrapping="Wrap" FontSize="16">Давление газа на котле</TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="3" TextWrapping="Wrap" FontSize="16">Давление воды в системе</TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="4" TextWrapping="Wrap" FontSize="16">Расход воды по часам. м³</TextBlock>
+            
+            <TextBlock Grid.Row="1" Grid.Column="0" FontSize="16">8:00</TextBlock>
+            <TextBox Grid.Row="1" Grid.Column="1" FontSize="16"></TextBox>
+            <TextBox Grid.Row="1" Grid.Column="2" FontSize="16"></TextBox>
+            <TextBox Grid.Row="1" Grid.Column="3" FontSize="16"></TextBox>
+            <TextBox Grid.Row="1" Grid.Column="4" FontSize="16"></TextBox>
+            
+            <TextBlock Grid.Row="2" Grid.Column="0" FontSize="16">11:00</TextBlock>
+            <TextBox Grid.Row="2" Grid.Column="1" FontSize="16"></TextBox>
+            <TextBox Grid.Row="2" Grid.Column="2" FontSize="16"></TextBox>
+            <TextBox Grid.Row="2" Grid.Column="3" FontSize="16"></TextBox>
+            <TextBox Grid.Row="2" Grid.Column="4" FontSize="16"></TextBox>
+            
+            <TextBlock Grid.Row="3" Grid.Column="0" FontSize="16">14:00</TextBlock>
+            <TextBox Grid.Row="3" Grid.Column="1" FontSize="16"></TextBox>
+            <TextBox Grid.Row="3" Grid.Column="2" FontSize="16"></TextBox>
+            <TextBox Grid.Row="3" Grid.Column="3" FontSize="16"></TextBox>
+            <TextBox Grid.Row="3" Grid.Column="4" FontSize="16"></TextBox>
+            
+            <TextBlock Grid.Row="4" Grid.Column="0" FontSize="16">17:00</TextBlock>
+            <TextBox Grid.Row="4" Grid.Column="1" FontSize="16"></TextBox>
+            <TextBox Grid.Row="4" Grid.Column="2" FontSize="16"></TextBox>
+            <TextBox Grid.Row="4" Grid.Column="3" FontSize="16"></TextBox>
+            <TextBox Grid.Row="4" Grid.Column="4" FontSize="16"></TextBox>
+            
+            <TextBlock Grid.Row="5" Grid.Column="0" FontSize="16">20:00</TextBlock>
+            <TextBox Grid.Row="5" Grid.Column="1" FontSize="16" ></TextBox>
+            <TextBox Grid.Row="5" Grid.Column="2" FontSize="16" ></TextBox>
+            <TextBox Grid.Row="5" Grid.Column="3" FontSize="16" ></TextBox>
+            <TextBox Grid.Row="5" Grid.Column="4" FontSize="16" ></TextBox>
+            
+            <TextBlock Grid.Row="6" Grid.Column="0" FontSize="16">23:00</TextBlock>
+            <TextBox Grid.Row="6" Grid.Column="1" FontSize="16" ></TextBox>
+            <TextBox Grid.Row="6" Grid.Column="2" FontSize="16" ></TextBox>
+            <TextBox Grid.Row="6" Grid.Column="3" FontSize="16" ></TextBox>
+            <TextBox Grid.Row="6" Grid.Column="4" FontSize="16" ></TextBox>
+            
+            <TextBlock Grid.Row="7" Grid.Column="0" FontSize="16">2:00</TextBlock>
+            <TextBox Grid.Row="7" Grid.Column="1" FontSize="16" ></TextBox>
+            <TextBox Grid.Row="7" Grid.Column="2" FontSize="16" ></TextBox>
+            <TextBox Grid.Row="7" Grid.Column="3" FontSize="16" ></TextBox>
+            <TextBox Grid.Row="7" Grid.Column="4" FontSize="16" ></TextBox>
+            
+            <TextBlock Grid.Row="8" Grid.Column="0" FontSize="16">5:00</TextBlock>
+            <TextBox Grid.Row="8" Grid.Column="1" FontSize="16" ></TextBox>
+            <TextBox Grid.Row="8" Grid.Column="2" FontSize="16" ></TextBox>
+            <TextBox Grid.Row="8" Grid.Column="3" FontSize="16" ></TextBox>
+            <TextBox Grid.Row="8" Grid.Column="4" FontSize="16" ></TextBox>
+
+        </Grid>
+    </Grid>
 </Window>

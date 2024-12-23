@@ -1,0 +1,9 @@
+Поиск по фамилии и имени в базе данных (динамическое изменение списка от вводимых данных )
+
+В WpfApp1.csproj  закидываем
+    <ItemGroup>
+        <PackageReference Include="ReactiveUI" Version="20.1.63" />
+        <PackageReference Include="ReactiveUI.WPF" Version="20.1.63" />
+        <PackageReference Include="ReactiveUI.Fody" Version="19.5.41" />
+    </ItemGroup>
+
