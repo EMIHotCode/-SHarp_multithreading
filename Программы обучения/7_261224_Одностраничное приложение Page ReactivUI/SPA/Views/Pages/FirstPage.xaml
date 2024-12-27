@@ -1,0 +1,17 @@
+﻿<Page x:Class="SPA.Views.Pages.FirstPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:pages="clr-namespace:SPA.ViewModel.Pages"
+      Title="FirstPage"
+      Height="450" Width="800">
+    
+    <Page.DataContext>
+        <pages:FirstPageViewModel/>
+    </Page.DataContext>
+    
+    <StackPanel>
+        <TextBlock Text="{Binding Header}"/>
+        <Button Content="Refresh"
+                Command="{Binding CommandRefresh}"/>
+    </StackPanel>
+</Page>

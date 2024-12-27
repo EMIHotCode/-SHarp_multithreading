@@ -1,0 +1,14 @@
+﻿<Page x:Class="SPA.Views.Pages.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:vm="clr-namespace:SPA.ViewModel"
+      xmlns:pages="clr-namespace:SPA.ViewModel.Pages"
+      Title="MainPage" 
+      Height="450" Width="800">
+    <Page.DataContext>
+        <pages:MainPageViewModel/>
+    </Page.DataContext>
+    <Grid>
+        <TextBlock Text="{Binding Test}"/>
+    </Grid>
+</Page>

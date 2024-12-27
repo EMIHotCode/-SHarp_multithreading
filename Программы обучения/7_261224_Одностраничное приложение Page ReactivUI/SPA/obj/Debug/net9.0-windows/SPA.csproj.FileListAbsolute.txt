@@ -1,0 +1,69 @@
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\bin\Debug\net9.0-windows\SPA.exe
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\bin\Debug\net9.0-windows\SPA.deps.json
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\bin\Debug\net9.0-windows\SPA.runtimeconfig.json
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\bin\Debug\net9.0-windows\SPA.dll
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\bin\Debug\net9.0-windows\SPA.pdb
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\bin\Debug\net9.0-windows\DynamicData.dll
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\bin\Debug\net9.0-windows\ReactiveUI.dll
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\bin\Debug\net9.0-windows\ReactiveUI.Fody.Helpers.dll
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\bin\Debug\net9.0-windows\ReactiveUI.Wpf.dll
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\bin\Debug\net9.0-windows\Splat.dll
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\bin\Debug\net9.0-windows\System.Reactive.dll
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\obj\Debug\net9.0-windows\SPA.csproj.AssemblyReference.cache
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\obj\Debug\net9.0-windows\Views\MainWindow.g.cs
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\obj\Debug\net9.0-windows\App.g.cs
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\obj\Debug\net9.0-windows\SPA_MarkupCompile.cache
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\obj\Debug\net9.0-windows\SPA_MarkupCompile.lref
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\obj\Debug\net9.0-windows\Views\MainWindow.baml
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\obj\Debug\net9.0-windows\SPA.g.resources
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\obj\Debug\net9.0-windows\SPA.GeneratedMSBuildEditorConfig.editorconfig
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\obj\Debug\net9.0-windows\SPA.AssemblyInfoInputs.cache
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\obj\Debug\net9.0-windows\SPA.AssemblyInfo.cs
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\obj\Debug\net9.0-windows\SPA.csproj.CoreCompileInputs.cache
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\obj\Debug\net9.0-windows\SPA.sourcelink.json
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\obj\Debug\net9.0-windows\SPA.csproj.Fody.CopyLocal.cache
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\obj\Debug\net9.0-windows\SPA.csproj.Fody.RuntimeCopyLocal.cache
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\obj\Debug\net9.0-windows\SPA.csproj.Up2Date
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\obj\Debug\net9.0-windows\SPA.dll
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\obj\Debug\net9.0-windows\refint\SPA.dll
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\obj\Debug\net9.0-windows\SPA.pdb
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\obj\Debug\net9.0-windows\SPA.genruntimeconfig.cache
+D:\share\обучение программированию\C# multithreading\Программы обучения\SPA\SPA\obj\Debug\net9.0-windows\ref\SPA.dll
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\bin\Debug\net9.0-windows\SPA.exe
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\bin\Debug\net9.0-windows\SPA.deps.json
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\bin\Debug\net9.0-windows\SPA.runtimeconfig.json
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\bin\Debug\net9.0-windows\SPA.dll
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\bin\Debug\net9.0-windows\SPA.pdb
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\bin\Debug\net9.0-windows\DynamicData.dll
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\bin\Debug\net9.0-windows\ReactiveUI.dll
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\bin\Debug\net9.0-windows\ReactiveUI.Fody.Helpers.dll
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\bin\Debug\net9.0-windows\ReactiveUI.Wpf.dll
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\bin\Debug\net9.0-windows\Splat.dll
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\bin\Debug\net9.0-windows\System.Reactive.dll
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\obj\Debug\net9.0-windows\SPA.csproj.AssemblyReference.cache
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\obj\Debug\net9.0-windows\Views\MainPage.g.cs
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\obj\Debug\net9.0-windows\Views\MainWindow.g.cs
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\obj\Debug\net9.0-windows\Views\Pages\MainPage.g.cs
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\obj\Debug\net9.0-windows\App.g.cs
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\obj\Debug\net9.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\obj\Debug\net9.0-windows\SPA_MarkupCompile.cache
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\obj\Debug\net9.0-windows\SPA_MarkupCompile.lref
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\obj\Debug\net9.0-windows\Views\MainPage.baml
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\obj\Debug\net9.0-windows\Views\MainWindow.baml
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\obj\Debug\net9.0-windows\Views\Pages\MainPage.baml
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\obj\Debug\net9.0-windows\SPA.g.resources
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\obj\Debug\net9.0-windows\SPA.GeneratedMSBuildEditorConfig.editorconfig
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\obj\Debug\net9.0-windows\SPA.AssemblyInfoInputs.cache
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\obj\Debug\net9.0-windows\SPA.AssemblyInfo.cs
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\obj\Debug\net9.0-windows\SPA.csproj.CoreCompileInputs.cache
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\obj\Debug\net9.0-windows\SPA.sourcelink.json
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\obj\Debug\net9.0-windows\SPA.csproj.Fody.CopyLocal.cache
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\obj\Debug\net9.0-windows\SPA.csproj.Fody.RuntimeCopyLocal.cache
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\obj\Debug\net9.0-windows\SPA.csproj.Up2Date
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\obj\Debug\net9.0-windows\SPA.dll
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\obj\Debug\net9.0-windows\refint\SPA.dll
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\obj\Debug\net9.0-windows\SPA.pdb
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\obj\Debug\net9.0-windows\SPA.genruntimeconfig.cache
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\obj\Debug\net9.0-windows\ref\SPA.dll
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\obj\Debug\net9.0-windows\Views\Pages\FirstPage.g.cs
+D:\share\обучение программированию\C# multithreading\Программы обучения\7_261224_Одностраничное приложение Page ReactivUI\SPA\obj\Debug\net9.0-windows\Views\Pages\FirstPage.baml
