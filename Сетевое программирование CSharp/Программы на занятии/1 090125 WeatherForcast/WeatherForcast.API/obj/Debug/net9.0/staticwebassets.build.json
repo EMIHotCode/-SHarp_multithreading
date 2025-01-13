@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "AzM3pws4kvMdLkLOZg9+3gtfOJ78oLyNpI0uRep5CCc=",
+  "Source": "WeatherForcast.API",
+  "BasePath": "_content/WeatherForcast.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

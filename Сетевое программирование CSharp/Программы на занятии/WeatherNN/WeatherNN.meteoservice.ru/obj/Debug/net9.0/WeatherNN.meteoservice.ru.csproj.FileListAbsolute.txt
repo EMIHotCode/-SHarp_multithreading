@@ -1,0 +1,15 @@
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\WeatherNN\WeatherNN.meteoservice.ru\bin\Debug\net9.0\WeatherNN.meteoservice.ru.exe
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\WeatherNN\WeatherNN.meteoservice.ru\bin\Debug\net9.0\WeatherNN.meteoservice.ru.deps.json
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\WeatherNN\WeatherNN.meteoservice.ru\bin\Debug\net9.0\WeatherNN.meteoservice.ru.runtimeconfig.json
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\WeatherNN\WeatherNN.meteoservice.ru\bin\Debug\net9.0\WeatherNN.meteoservice.ru.dll
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\WeatherNN\WeatherNN.meteoservice.ru\bin\Debug\net9.0\WeatherNN.meteoservice.ru.pdb
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\WeatherNN\WeatherNN.meteoservice.ru\obj\Debug\net9.0\WeatherNN.meteoservice.ru.GeneratedMSBuildEditorConfig.editorconfig
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\WeatherNN\WeatherNN.meteoservice.ru\obj\Debug\net9.0\WeatherNN.meteoservice.ru.AssemblyInfoInputs.cache
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\WeatherNN\WeatherNN.meteoservice.ru\obj\Debug\net9.0\WeatherNN.meteoservice.ru.AssemblyInfo.cs
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\WeatherNN\WeatherNN.meteoservice.ru\obj\Debug\net9.0\WeatherNN.meteoservice.ru.csproj.CoreCompileInputs.cache
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\WeatherNN\WeatherNN.meteoservice.ru\obj\Debug\net9.0\WeatherNN.meteoservice.ru.sourcelink.json
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\WeatherNN\WeatherNN.meteoservice.ru\obj\Debug\net9.0\WeatherNN.meteoservice.ru.dll
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\WeatherNN\WeatherNN.meteoservice.ru\obj\Debug\net9.0\refint\WeatherNN.meteoservice.ru.dll
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\WeatherNN\WeatherNN.meteoservice.ru\obj\Debug\net9.0\WeatherNN.meteoservice.ru.pdb
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\WeatherNN\WeatherNN.meteoservice.ru\obj\Debug\net9.0\WeatherNN.meteoservice.ru.genruntimeconfig.cache
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\WeatherNN\WeatherNN.meteoservice.ru\obj\Debug\net9.0\ref\WeatherNN.meteoservice.ru.dll

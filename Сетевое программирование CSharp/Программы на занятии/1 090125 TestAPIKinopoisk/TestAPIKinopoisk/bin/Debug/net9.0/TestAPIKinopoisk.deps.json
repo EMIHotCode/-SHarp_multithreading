@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "TestAPIKinopoisk/1.0.0": {
+        "dependencies": {
+          "Json.Serialization": "1.0.0",
+          "Macross.Json.Extensions": "3.0.0"
+        },
+        "runtime": {
+          "TestAPIKinopoisk.dll": {}
+        }
+      },
+      "Json.Serialization/1.0.0": {
+        "runtime": {
+          "lib/netcoreapp2.0/Json.Serialization.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Macross.Json.Extensions/3.0.0": {
+        "runtime": {
+          "lib/net6.0/Macross.Json.Extensions.dll": {
+            "assemblyVersion": "3.0.0.22164",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestAPIKinopoisk/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Json.Serialization/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OmTT8WM9nVyq9vb9olZSNjOepOf9F4QdunvRcggIuRWrL8KXpjwAJ1QN5UpLEQzLbvmsrnJdO6s3jq+76IcyZw==",
+      "path": "json.serialization/1.0.0",
+      "hashPath": "json.serialization.1.0.0.nupkg.sha512"
+    },
+    "Macross.Json.Extensions/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AkNshs6dopj8FXsmkkJxvLivN2SyDJQDbjcds5lo9+Y6L4zpcoXdmzXQ3VVN+AIWQr0CTD5A7vkuHGAr2aypZg==",
+      "path": "macross.json.extensions/3.0.0",
+      "hashPath": "macross.json.extensions.3.0.0.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "WeatherNN.meteoservice.ru/1.0.0": {
+        "runtime": {
+          "WeatherNN.meteoservice.ru.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WeatherNN.meteoservice.ru/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
