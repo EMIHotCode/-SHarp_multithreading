@@ -1,0 +1,54 @@
+C:\Users\User\source\repos\testing_ezhednevnik2\bin\Debug\testing_ezhednevnik2.exe.config
+C:\Users\User\source\repos\testing_ezhednevnik2\bin\Debug\testing_ezhednevnik2.exe
+C:\Users\User\source\repos\testing_ezhednevnik2\bin\Debug\testing_ezhednevnik2.pdb
+C:\Users\User\source\repos\testing_ezhednevnik2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\source\repos\testing_ezhednevnik2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\source\repos\testing_ezhednevnik2\obj\Debug\testing_ezhednevnik2.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\testing_ezhednevnik2\obj\Debug\MainWindow.g.cs
+C:\Users\User\source\repos\testing_ezhednevnik2\obj\Debug\App.g.cs
+C:\Users\User\source\repos\testing_ezhednevnik2\obj\Debug\testing_ezhednevnik2_MarkupCompile.cache
+C:\Users\User\source\repos\testing_ezhednevnik2\obj\Debug\testing_ezhednevnik2_MarkupCompile.lref
+C:\Users\User\source\repos\testing_ezhednevnik2\obj\Debug\MainWindow.baml
+C:\Users\User\source\repos\testing_ezhednevnik2\obj\Debug\testing_ezhednevnik2.g.resources
+C:\Users\User\source\repos\testing_ezhednevnik2\obj\Debug\testing_ezhednevnik2.Properties.Resources.resources
+C:\Users\User\source\repos\testing_ezhednevnik2\obj\Debug\testing_ezhednevnik2.csproj.GenerateResource.cache
+C:\Users\User\source\repos\testing_ezhednevnik2\obj\Debug\testing_ezhednevnik2.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\testing_ezhednevnik2\obj\Debug\testing_ezhednevnik2.csproj.CopyComplete
+C:\Users\User\source\repos\testing_ezhednevnik2\obj\Debug\testing_ezhednevnik2.exe
+C:\Users\User\source\repos\testing_ezhednevnik2\obj\Debug\testing_ezhednevnik2.pdb
+C:\Users\Admin\Downloads\your-notes-safety-master\bin\Debug\testing_ezhednevnik2.exe.config
+C:\Users\Admin\Downloads\your-notes-safety-master\bin\Debug\testing_ezhednevnik2.exe
+C:\Users\Admin\Downloads\your-notes-safety-master\bin\Debug\testing_ezhednevnik2.pdb
+C:\Users\Admin\Downloads\your-notes-safety-master\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Downloads\your-notes-safety-master\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Downloads\your-notes-safety-master\obj\Debug\testing_ezhednevnik2.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\your-notes-safety-master\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Downloads\your-notes-safety-master\obj\Debug\App.g.cs
+C:\Users\Admin\Downloads\your-notes-safety-master\obj\Debug\testing_ezhednevnik2_MarkupCompile.cache
+C:\Users\Admin\Downloads\your-notes-safety-master\obj\Debug\testing_ezhednevnik2_MarkupCompile.lref
+C:\Users\Admin\Downloads\your-notes-safety-master\obj\Debug\MainWindow.baml
+C:\Users\Admin\Downloads\your-notes-safety-master\obj\Debug\testing_ezhednevnik2.g.resources
+C:\Users\Admin\Downloads\your-notes-safety-master\obj\Debug\testing_ezhednevnik2.Properties.Resources.resources
+C:\Users\Admin\Downloads\your-notes-safety-master\obj\Debug\testing_ezhednevnik2.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\your-notes-safety-master\obj\Debug\testing_ezhednevnik2.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\your-notes-safety-master\obj\Debug\testing_.F3AB4968.Up2Date
+C:\Users\Admin\Downloads\your-notes-safety-master\obj\Debug\testing_ezhednevnik2.exe
+C:\Users\Admin\Downloads\your-notes-safety-master\obj\Debug\testing_ezhednevnik2.pdb
+D:\share\обучение программированию\C# Windows Forms и WPF\WPF Lessons\WPF итоговые работы\заметки с выбором дат\bin\Debug\testing_ezhednevnik2.exe.config
+D:\share\обучение программированию\C# Windows Forms и WPF\WPF Lessons\WPF итоговые работы\заметки с выбором дат\bin\Debug\testing_ezhednevnik2.exe
+D:\share\обучение программированию\C# Windows Forms и WPF\WPF Lessons\WPF итоговые работы\заметки с выбором дат\bin\Debug\testing_ezhednevnik2.pdb
+D:\share\обучение программированию\C# Windows Forms и WPF\WPF Lessons\WPF итоговые работы\заметки с выбором дат\bin\Debug\Newtonsoft.Json.dll
+D:\share\обучение программированию\C# Windows Forms и WPF\WPF Lessons\WPF итоговые работы\заметки с выбором дат\bin\Debug\Newtonsoft.Json.xml
+D:\share\обучение программированию\C# Windows Forms и WPF\WPF Lessons\WPF итоговые работы\заметки с выбором дат\obj\Debug\testing_ezhednevnik2.csproj.AssemblyReference.cache
+D:\share\обучение программированию\C# Windows Forms и WPF\WPF Lessons\WPF итоговые работы\заметки с выбором дат\obj\Debug\MainWindow.g.cs
+D:\share\обучение программированию\C# Windows Forms и WPF\WPF Lessons\WPF итоговые работы\заметки с выбором дат\obj\Debug\App.g.cs
+D:\share\обучение программированию\C# Windows Forms и WPF\WPF Lessons\WPF итоговые работы\заметки с выбором дат\obj\Debug\testing_ezhednevnik2_MarkupCompile.cache
+D:\share\обучение программированию\C# Windows Forms и WPF\WPF Lessons\WPF итоговые работы\заметки с выбором дат\obj\Debug\testing_ezhednevnik2_MarkupCompile.lref
+D:\share\обучение программированию\C# Windows Forms и WPF\WPF Lessons\WPF итоговые работы\заметки с выбором дат\obj\Debug\MainWindow.baml
+D:\share\обучение программированию\C# Windows Forms и WPF\WPF Lessons\WPF итоговые работы\заметки с выбором дат\obj\Debug\testing_ezhednevnik2.g.resources
+D:\share\обучение программированию\C# Windows Forms и WPF\WPF Lessons\WPF итоговые работы\заметки с выбором дат\obj\Debug\testing_ezhednevnik2.Properties.Resources.resources
+D:\share\обучение программированию\C# Windows Forms и WPF\WPF Lessons\WPF итоговые работы\заметки с выбором дат\obj\Debug\testing_ezhednevnik2.csproj.GenerateResource.cache
+D:\share\обучение программированию\C# Windows Forms и WPF\WPF Lessons\WPF итоговые работы\заметки с выбором дат\obj\Debug\testing_ezhednevnik2.csproj.CoreCompileInputs.cache
+D:\share\обучение программированию\C# Windows Forms и WPF\WPF Lessons\WPF итоговые работы\заметки с выбором дат\obj\Debug\testing_.F3AB4968.Up2Date
+D:\share\обучение программированию\C# Windows Forms и WPF\WPF Lessons\WPF итоговые работы\заметки с выбором дат\obj\Debug\testing_ezhednevnik2.exe
+D:\share\обучение программированию\C# Windows Forms и WPF\WPF Lessons\WPF итоговые работы\заметки с выбором дат\obj\Debug\testing_ezhednevnik2.pdb

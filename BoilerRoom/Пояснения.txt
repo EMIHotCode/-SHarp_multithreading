@@ -19,3 +19,50 @@ PdfDocument pdfDoc = new PdfDocument(); // create document
 PdfPage pdfPage = new PdfPage(); // create page 
 pdfPage.Size = PageSize.Letter; // set page size
 pdfDoc.Pages.Add(pdfPage); // add page to document
+
+
+При написании погоды использовать обновление 
+public MainWindow()
+        {
+            InitializeComponent();
+
+            //Создаем таймер с интервалом в 3 секунды
+            dispatcherTimer = new DispatcherTimer();
+            dispatcherTimer.Tick += new EventHandler(dispatcherTimer_Tick);
+            dispatcherTimer.Interval = new TimeSpan(0, 0, 3);
+        }
+
+        private void dispatcherTimer_Tick(object sender, EventArgs e)
+        {
+            //Вещи, которые происходят через 1 интервал времени по таймеру
+            //MessageBox.Show("Show some data"); - тоже можно добавить по истечении прошедшего времени
+            LabelPassCopyToClipboard.Visibility = System.Windows.Visibility.Collapsed;
+
+            //Отключение таймера
+            dispatcherTimer.IsEnabled = false;
+        }
+
+        private void btnGenPass_Click(object sender, RoutedEventArgs e)
+        {
+            //События, которые происходят до запуска таймера
+            LabelPassCopyToClipboard.Visibility = System.Windows.Visibility.Visible;
+            //Запуск таймера
+            dispatcherTimer.Start();
+
+            EnableDisableGeneratePasswordButton();
+            if (btnGenPass.IsEnabled)
+            {
+                if (int.TryParse(LabelPasswordLengthValue.Content.ToString(), out int passLength))
+                {
+                    txtBoxPassword.Text = GetGeneratedPassword(passLength);
+                    // сохранение в буфер обмена сгенерированного пароля
+                    Clipboard.SetData(DataFormats.Text, txtBoxPassword.Text);
+                }
+                else
+                    MessageBox.Show($"Длинна пароля неправильно определена.");
+            }
+            else
+                MessageBox.Show($"Сначала параметры для генерации пароля ");
+
+
+        }

@@ -30,7 +30,7 @@ public class MainWindowModel : WindowModelBase
                     }
                 }
             }
-            catch (Exception e)
+            catch (Exception e) // выдавать ошибку если сервер не запущен
             {
                 MessageBox.Show(e.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }

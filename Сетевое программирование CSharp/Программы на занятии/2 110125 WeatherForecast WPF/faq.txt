@@ -1,8 +1,22 @@
-ReactiveUI
-нужны библиотеки ReactiveUI.WPF   и ReactiveUI.Fody
+Для работы с ReactiveUI нужны библиотеки ReactiveUI.WPF и ReactiveUI.Fody
+
+public static HttpClient HttpClient { get; } = new(); нужно создавать  в App.xaml.cs чтобы он был виден везде
 
 // сделали асинхронный перечислитель class WeatherForecastService
 public static IAsyncEnumerable<WeatherForecastDto?> GetWeatherForecastAsync(CancellationToken ct = default) 
     =>  App.HttpClient.GetFromJsonAsAsyncEnumerable<WeatherForecastDto?>(Url, ct);
+
+ 
+Models 
+WindowsModels  - для работы с MVVM
+    класс abstract class WindowModelBase : ReactiveObject  - наследуется от ReactiveUI использует using ReactiveUI;
+    класс public class MainWindowModel : WindowModelBase - наследуемся
+Windows  - для работы с MVVM
+    MainWindow.xaml - реализуем DataContext xmlns:wm="clr-namespace:WeatherForecast.DesktopApp.WindowModels" 
+        <Window.DataContext> <wm:MainWindowModel/> </Window.DataContext>
+       
+Services - нужен для запроса погоды с сервера и выдачи результата
     
-    
+App.xaml переносим в папку Windows и правим путь StartupUri="/Windows/MainWindow.xaml">
+
+Запускать внутри программы сначала сервер потом клиент для работы
