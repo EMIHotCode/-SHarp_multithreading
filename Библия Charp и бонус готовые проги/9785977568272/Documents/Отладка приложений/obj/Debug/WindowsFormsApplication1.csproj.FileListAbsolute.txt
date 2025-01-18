@@ -1,0 +1,16 @@
+C:\Users\flenov\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\flenov\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\flenov\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\flenov\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\flenov\AppData\Local\Temporary Projects\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\flenov\AppData\Local\Temporary Projects\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\flenov\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\flenov\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+F:\c#\Debugging\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+F:\c#\Debugging\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+F:\c#\Debugging\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+F:\c#\Debugging\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+F:\c#\Debugging\WindowsFormsApplication1\obj\Debug\ResolveAssemblyReference.cache
+F:\c#\Debugging\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+F:\c#\Debugging\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+F:\c#\Debugging\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache

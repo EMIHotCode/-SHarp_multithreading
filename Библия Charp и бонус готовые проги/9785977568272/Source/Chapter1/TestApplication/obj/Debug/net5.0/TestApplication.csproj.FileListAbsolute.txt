@@ -1,0 +1,15 @@
+C:\Users\Mr User\Downloads\9785977568272\Source\Chapter1\TestApplication\bin\Debug\net5.0\TestApplication.exe
+C:\Users\Mr User\Downloads\9785977568272\Source\Chapter1\TestApplication\bin\Debug\net5.0\TestApplication.deps.json
+C:\Users\Mr User\Downloads\9785977568272\Source\Chapter1\TestApplication\bin\Debug\net5.0\TestApplication.runtimeconfig.json
+C:\Users\Mr User\Downloads\9785977568272\Source\Chapter1\TestApplication\bin\Debug\net5.0\TestApplication.runtimeconfig.dev.json
+C:\Users\Mr User\Downloads\9785977568272\Source\Chapter1\TestApplication\bin\Debug\net5.0\TestApplication.dll
+C:\Users\Mr User\Downloads\9785977568272\Source\Chapter1\TestApplication\bin\Debug\net5.0\TestApplication.pdb
+C:\Users\Mr User\Downloads\9785977568272\Source\Chapter1\TestApplication\obj\Debug\net5.0\TestApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mr User\Downloads\9785977568272\Source\Chapter1\TestApplication\obj\Debug\net5.0\TestApplication.AssemblyInfoInputs.cache
+C:\Users\Mr User\Downloads\9785977568272\Source\Chapter1\TestApplication\obj\Debug\net5.0\TestApplication.AssemblyInfo.cs
+C:\Users\Mr User\Downloads\9785977568272\Source\Chapter1\TestApplication\obj\Debug\net5.0\TestApplication.csproj.CoreCompileInputs.cache
+C:\Users\Mr User\Downloads\9785977568272\Source\Chapter1\TestApplication\obj\Debug\net5.0\TestApplication.dll
+C:\Users\Mr User\Downloads\9785977568272\Source\Chapter1\TestApplication\obj\Debug\net5.0\refint\TestApplication.dll
+C:\Users\Mr User\Downloads\9785977568272\Source\Chapter1\TestApplication\obj\Debug\net5.0\TestApplication.pdb
+C:\Users\Mr User\Downloads\9785977568272\Source\Chapter1\TestApplication\obj\Debug\net5.0\TestApplication.genruntimeconfig.cache
+C:\Users\Mr User\Downloads\9785977568272\Source\Chapter1\TestApplication\obj\Debug\net5.0\ref\TestApplication.dll
