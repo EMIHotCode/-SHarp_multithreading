@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="ClassRoom.Views.AboutPageView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="clr-namespace:ClassRoom.ViewModels"
+             Background="{StaticResource AboutBackground}">
+    <UserControl.DataContext>
+        <vm:AboutPageViewModel/>
+    </UserControl.DataContext>
+    
+    <Grid>
+        <TextBlock Text="{Binding PageTitle}"/>
+    </Grid>
+</UserControl>

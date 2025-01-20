@@ -1,0 +1,7 @@
+В программе используется ReactiveUI во ViewModels
+public class MainWindowViewModel : ReactiveObject - наследуемся для реализации ReactiveUI
+
+
+
+
+
