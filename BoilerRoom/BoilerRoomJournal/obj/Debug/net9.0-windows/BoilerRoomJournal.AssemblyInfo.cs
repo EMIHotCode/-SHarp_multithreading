@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BoilerRoomJournal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da16952603813333b2230f68f33c1f217703e7fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3bb915d53e0a1162df4f5e2d5900dffa9045af3")]
 [assembly: System.Reflection.AssemblyProductAttribute("BoilerRoomJournal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BoilerRoomJournal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
