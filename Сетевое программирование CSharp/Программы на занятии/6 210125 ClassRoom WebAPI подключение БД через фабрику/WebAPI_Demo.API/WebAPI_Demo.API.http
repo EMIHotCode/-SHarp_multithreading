@@ -1,21 +1,21 @@
 @WebAPI_Demo.API_HostAddress = http://localhost:5012
 
-GET {{WebAPI_Demo.API_HostAddress}}/persons/
+GET http://localhost:5012/persons/
 Accept: application/json
 
 ###
 
-GET {{WebAPI_Demo.API_HostAddress}}/phones/
+GET http://localhost:5012/phones/
 Accept: application/json
 
 ###
 
-GET {{WebAPI_Demo.API_HostAddress}}/person/5539d402-c079-41f5-bfa9-da8379c8cd84
+GET http://localhost:5012/person/810b4e45-11b0-4601-8227-3830f5626732
 Accept: application/json
 
-###
+### 
 
-GET {{WebAPI_Demo.API_HostAddress}}/person/1
+GET http://localhost:5012/person/1
 Accept: application/json
 
-###
+### 

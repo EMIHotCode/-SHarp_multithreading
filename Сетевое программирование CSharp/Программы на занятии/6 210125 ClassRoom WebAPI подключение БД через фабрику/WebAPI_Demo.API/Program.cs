@@ -5,8 +5,10 @@ var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 app.UseHttpsRedirection();
 
-var dbFactory = new DataBaseContextFactory();
-var db = dbFactory.CreateDbContext();
+var dbFactory = new DataBaseContextFactory(); // создаем сначала фабрику 
+var db = dbFactory.CreateDbContext();  // через экземпляр фабрики без параметров
+
+db.Phones.Include(p => p.Person).ToList();
 
 app.MapGet("/persons", async () => await db.Persons.ToListAsync());
 app.MapGet("/person/{id:guid}", async (Guid id) =>

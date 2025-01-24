@@ -1,5 +1,5 @@
 ﻿namespace WebAPI_Demo.DB;
-
+// enum при миграции в Postgres 
 public enum PhoneType
 {
     Mobile,

@@ -17,6 +17,6 @@ public class DataBaseContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         optionsBuilder.UseNpgsql(_connectionString,
-            o => o.MapEnum<PhoneType>(nameof(PhoneType)));
+            o => o.MapEnum<PhoneType>(nameof(PhoneType)));  // 
     }
 }
