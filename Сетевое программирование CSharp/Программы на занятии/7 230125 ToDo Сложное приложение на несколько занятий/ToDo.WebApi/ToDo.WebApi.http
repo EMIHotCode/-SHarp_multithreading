@@ -1,0 +1,33 @@
+@ToDo.WebApi_HostAddress = http://localhost:5243
+@id = 1
+
+GET {{ToDo.WebApi_HostAddress}}/tasks/
+Accept: application/json
+
+###
+
+GET {{ToDo.WebApi_HostAddress}}/tasks/{{id}}
+Accept: application/json
+
+###
+
+POST {{ToDo.WebApi_HostAddress}}/tasks/
+Content-Type: application/json
+
+{
+}
+
+###
+
+PUT {{ToDo.WebApi_HostAddress}}/tasks/
+Content-Type: application/json
+
+{
+}
+
+###
+
+DELETE {{ToDo.WebApi_HostAddress}}/tasks/{{id}}
+Content-Type: application/json
+
+###
