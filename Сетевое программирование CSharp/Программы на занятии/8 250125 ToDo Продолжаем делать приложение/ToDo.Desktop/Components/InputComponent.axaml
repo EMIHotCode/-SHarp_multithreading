@@ -1,0 +1,15 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+
+             x:Class="ToDo.Desktop.Components.InputComponent"
+             x:Name="Component">
+    <StackPanel Orientation="Horizontal">
+        <Label Content="{Binding ElementName=Component, Path=LabelContent}"
+               Target="{Binding ElementName=Input}"/>
+        <TextBox x:Name="Input"
+                 Text="{Binding ElementName=Component, Path=InputText}"
+                 Watermark="{Binding ElementName=Component, Path=Placeholder}"
+                 UseFloatingWatermark="True"
+                 IsReadOnly="{Binding ElementName=Component, Path=IsReadOnly}"/>
+    </StackPanel>
+</UserControl>

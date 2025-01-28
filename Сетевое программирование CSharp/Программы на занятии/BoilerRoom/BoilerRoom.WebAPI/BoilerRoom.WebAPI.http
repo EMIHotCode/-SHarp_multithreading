@@ -1,6 +1,0 @@
-@BoilerRoom.WebAPI_HostAddress = http://localhost:5032
-
-GET {{BoilerRoom.WebAPI_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

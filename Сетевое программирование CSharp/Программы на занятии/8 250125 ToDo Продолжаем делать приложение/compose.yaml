@@ -1,0 +1,6 @@
+﻿services:
+  todo.webapi:
+    image: todo.webapi
+    build:
+      context: .
+      dockerfile: ToDo.WebApi/Dockerfile

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestAPIKinopoisk")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73340f1d022521d01fb2a91ac223408ba93b30de")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+487c0c1263f6b51256955ba4fbf0e56d583dd3db")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestAPIKinopoisk")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestAPIKinopoisk")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

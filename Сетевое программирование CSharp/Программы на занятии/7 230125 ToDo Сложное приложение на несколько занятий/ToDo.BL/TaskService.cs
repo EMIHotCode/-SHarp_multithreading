@@ -4,7 +4,7 @@ using ToDo.Model;
 
 namespace ToDo.BL;
 
-public class TaskService
+public class TaskService  //В нем реализуем методы получить все GetAll, добавить Add, GetByID, Update, Delete
 {
     private readonly ToDoContext _context;
 
@@ -19,7 +19,7 @@ public class TaskService
         return await _context.Tasks.ToListAsync();
     }
 
-    public async Task<TaskDto?> GetTaskByIdAsync(int id)
+    public async Task<TaskDto?> GetTaskByIdAsync(int id) // TaskDto? может вернуть null если неправильно укажем id
     {
         return await _context.Tasks.SingleOrDefaultAsync(t => t.Id == id);
     }

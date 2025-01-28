@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoilerRoom.WebAPI", "BoilerRoom.WebAPI\BoilerRoom.WebAPI.csproj", "{F875229B-7A8D-42A9-8576-9EC87FC12706}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoilerRoomJournal", "BoilerRoomJournal\BoilerRoomJournal.csproj", "{D9638F5A-7195-4572-A89B-0FD3EC7CF5B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetWeather.API", "GetWeather.API\GetWeather.API.csproj", "{DF079344-AA74-45FC-9E76-9B38E9FE5155}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +10,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F875229B-7A8D-42A9-8576-9EC87FC12706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F875229B-7A8D-42A9-8576-9EC87FC12706}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F875229B-7A8D-42A9-8576-9EC87FC12706}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F875229B-7A8D-42A9-8576-9EC87FC12706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9638F5A-7195-4572-A89B-0FD3EC7CF5B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9638F5A-7195-4572-A89B-0FD3EC7CF5B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9638F5A-7195-4572-A89B-0FD3EC7CF5B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9638F5A-7195-4572-A89B-0FD3EC7CF5B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF079344-AA74-45FC-9E76-9B38E9FE5155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF079344-AA74-45FC-9E76-9B38E9FE5155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF079344-AA74-45FC-9E76-9B38E9FE5155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF079344-AA74-45FC-9E76-9B38E9FE5155}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

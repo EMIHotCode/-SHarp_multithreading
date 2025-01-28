@@ -1,0 +1,15 @@
+Татьяна сделала WPF проект и спрашивает как добавить в него WebAPI
+Добавляем WPF в API проект WebAPI_Demo.Desktop 
+
+На основе классов Person и Phone создаем MainWindowViewModel
+
+MainWindowViewModel()
+При старте программы мы подключаемся к WebApi, чтобы из базы брать данные 
+            var http = App.HttpClient;
+            var url = new Uri("https://localhost:7067/persons");
+            var persons = http.GetFromJsonAsync<IEnumerable<Person>>(url).Result;
+            Persons = new ObservableCollection<Person>(persons);
+            
+Для этого в App.xaml.cs пропишим статически public static readonly HttpClient HttpClient = new HttpClient();
+
+Ничего не работает ??? а должно

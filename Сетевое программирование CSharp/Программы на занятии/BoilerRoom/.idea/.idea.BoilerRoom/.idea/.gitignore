@@ -1,9 +1,9 @@
-# Default ignored files
+﻿# Default ignored files
 /shelf/
 /workspace.xml
 # Rider ignored files
-/contentModel.xml
 /projectSettingsUpdater.xml
+/contentModel.xml
 /modules.xml
 /.idea.BoilerRoom.iml
 # Editor-based HTTP Client requests

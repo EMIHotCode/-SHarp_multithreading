@@ -1,0 +1,16 @@
+В расшириных настройках WebApi выбрали UseMinimalApi и в Add Docker подключили
+
+Создали Слой Сервера API
+Создали проект библиотка классов Library     ToDo.BL  в котором по хорошему надо создать Интерфейс (можно попозже)
+    В нем реализуем методы получить все GetAll, добавить Add, GetByID, Update, Delete
+    добавить Add не реализована ?????
+
+Создали проект библиотка классов Library     ToDo.Model
+    В нем единственный класс class TaskDto  // Data Transfer Object (DTO) — объект передачи данных
+
+Создаем слой библиотка классов Library ToDo.Dal  слой доступа к данным для работы с БД
+    В нем работаем через EntityFramework создаем миграцию
+    подключаем библиотеки
+        - EntityFrameworkCore.PostgresSQL - для работы с БД
+        - EntityFrameworkCore.Tools которая содержит Designer
+
