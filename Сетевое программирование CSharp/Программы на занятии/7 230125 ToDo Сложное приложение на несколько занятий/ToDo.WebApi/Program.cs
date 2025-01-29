@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 app.UseHttpsRedirection();
 
-var service = new TaskService();
+var service = new TaskService(); // создаем запросы ссылаясь на слой ToDo.BL
 
 app.MapGet("/tasks", async () => await service.GetAllTasksAsync());
 app.MapGet("/tasks/{id:int}", async (int id) => await service.GetTaskByIdAsync(id));

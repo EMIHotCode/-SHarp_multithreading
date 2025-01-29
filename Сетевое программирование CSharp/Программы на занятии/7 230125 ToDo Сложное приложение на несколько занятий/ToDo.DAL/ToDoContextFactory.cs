@@ -3,7 +3,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace ToDo.DAL;
 
-public class ToDoContextFactory : IDesignTimeDbContextFactory<ToDoContext>
+public class ToDoContextFactory : IDesignTimeDbContextFactory<ToDoContext>  // метод и класс который создают объект ToDoContext
 {
     public ToDoContext CreateDbContext(string[] args)
     {

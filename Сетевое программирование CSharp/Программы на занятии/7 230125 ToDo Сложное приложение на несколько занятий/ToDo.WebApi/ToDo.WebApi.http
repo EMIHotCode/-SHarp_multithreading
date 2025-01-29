@@ -15,6 +15,13 @@ POST {{ToDo.WebApi_HostAddress}}/tasks/
 Content-Type: application/json
 
 {
+  "title": "Task2",
+  "description": "Description for task2",
+  "priority": 1,
+  "status": 0,
+  "created": "2025-01-25T19:13:58.074Z",
+  "deadline": "2025-01-26T19:14:06.889Z",
+  "isDeleted": false
 }
 
 ###
@@ -23,6 +30,14 @@ PUT {{ToDo.WebApi_HostAddress}}/tasks/
 Content-Type: application/json
 
 {
+  "id": 2,
+  "title": "Task2",
+  "description": "",
+  "priority": 0,
+  "status": 1,
+  "created": "2025-01-25T19:13:58.074Z",
+  "deadline": "2025-01-26T19:14:06.889Z",
+  "isDeleted": false
 }
 
 ###

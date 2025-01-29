@@ -1,0 +1,48 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:ToDo.Desktop.ViewModels"
+             xmlns:c="using:ToDo.Desktop.Components"
+
+             x:Class="ToDo.Desktop.Views.CreateTaskPageView"
+             x:DataType="vm:CreateTaskPageViewModel">
+    <UserControl.DataContext>
+        <vm:CreateTaskPageViewModel/>
+    </UserControl.DataContext>
+
+    <StackPanel Orientation="Vertical">
+        <c:InputComponent LabelContent="Название"
+                          Placeholder="Введите название задачи"
+                          IsReadOnly="False"
+                          InputText="{Binding Title}"/>
+        <c:InputComponent LabelContent="Описание"
+                          Placeholder="Введите описание задачи"
+                          IsReadOnly="False"
+                          InputText="{Binding Description}"/>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Приоритет"
+                   Target="{Binding ElementName=Priority}"/>
+            <ComboBox x:Name="Priority"
+                      ItemsSource="{Binding Priorities}"
+                      SelectedItem="{Binding Priority}"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Статус"
+                   Target="{Binding ElementName=Status}"/>
+            <ComboBox x:Name="Status"
+                      ItemsSource="{Binding Statuses}"
+                      SelectedItem="{Binding Status}"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Дата создания"
+                   Target="{Binding ElementName=Created}"/>
+            <DatePicker x:Name="Created"
+                        SelectedDate="{Binding Created}"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Дата окончания"
+                   Target="{Binding ElementName=Deadline}"/>
+            <DatePicker x:Name="Deadline"
+                        SelectedDate="{Binding Deadline}"/>
+        </StackPanel>
+    </StackPanel>
+</UserControl>

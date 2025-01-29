@@ -6,7 +6,6 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using ToDo.DAL;
 using ToDo.Model;
-
 using TaskStatus = ToDo.Model.TaskStatus;
 
 #nullable disable
@@ -60,7 +59,7 @@ namespace ToDo.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Tasks");
+                    b.ToTable("Tasks", (string)null);
                 });
 #pragma warning restore 612, 618
         }

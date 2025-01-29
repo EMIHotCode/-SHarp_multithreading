@@ -6,7 +6,7 @@ namespace ToDo.BL;
 
 public class TaskService  //В нем реализуем методы получить все GetAll, добавить Add, GetByID, Update, Delete
 {
-    private readonly ToDoContext _context;
+    private readonly ToDoContext _context; // приватная переменная для контекста
 
     public TaskService()
     {

@@ -1,0 +1,31 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:ToDo.Desktop.ViewModels"
+             xmlns:m="using:ToDo.Model"
+
+             x:Class="ToDo.Desktop.Views.MainPageView"
+             x:DataType="vm:MainPageViewModel">
+    <UserControl.DataContext>
+        <vm:MainPageViewModel/>
+    </UserControl.DataContext>
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <DataTemplate x:Key="TasksItemTemplate"
+                          DataType="{x:Type m:TaskDto}">
+                <StackPanel Orientation="Vertical">
+                    <TextBlock Text="{Binding Title}"/>
+                    <TextBlock Text="{Binding Description}"/>
+                    <TextBlock Text="{Binding Priority}"/>
+                    <TextBlock Text="{Binding Status}"/>
+                    <TextBlock Text="{Binding Deadline}"/>
+                </StackPanel>
+            </DataTemplate>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <ListBox ItemsSource="{Binding Tasks}"
+             SelectedItem="{Binding SelectedTask}"
+             ItemTemplate="{StaticResource TasksItemTemplate}"
+             SelectionMode="Single"/>
+</UserControl>
