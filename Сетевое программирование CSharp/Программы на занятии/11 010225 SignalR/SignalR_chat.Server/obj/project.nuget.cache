@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "wTeIWQylbgo=",
+  "success": true,
+  "projectFilePath": "D:\\share\\обучение программированию\\C# multithreading\\Сетевое программирование CSharp\\Программы на занятии\\11 010225 SignalR\\SignalR_chat.Server\\SignalR_chat.Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.1\\microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

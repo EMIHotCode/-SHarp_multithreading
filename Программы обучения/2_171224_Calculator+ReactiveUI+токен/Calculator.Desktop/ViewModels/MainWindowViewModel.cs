@@ -13,7 +13,7 @@ public class MainWindowViewModel : ReactiveObject
     private int? _numberStartNum = null;
     private long? _startSum = null;
     private int? _numberFactorial;
-    
+   
     [Reactive] public string? InputNumberText { get; set; }  // наблюдаемые свойства в реактивном исполнении Fody
     [Reactive] public string? OutputSumText { get; set; }
     [Reactive] public string? OutputFactorialText { get; set; }
@@ -35,7 +35,7 @@ public class MainWindowViewModel : ReactiveObject
         IObservable<bool> canExecuteCalculateSumStart = this.WhenAnyValue(   // можем ли выполнить CommandCalculateSumStart. WhenAnyValue - Когда поле ввода числа будет не пустым 
             p1 => p1.InputNumberText,  // свойство за которым будем наблюдать InputNumberText
             p1 => !string.IsNullOrWhiteSpace(p1));         // обработка этого свойства и возврат булевского значения. WhiteSpace - это пробелы заместо символов
-            // CommandCalculateSumStart
+            // CommandCalculateSumStart  - обработчик события когда кнопка старт активна\неактивна
             // canExecuteCalculateSumStart будет записываться каждый раз когда меняется значение InputNumberText.  IObservable<bool> canExecuteCalculateSumStart попадает в реактивную команду CommandCalculateSumStart
             
         var canExecuteCalculateSumStop = this.WhenAnyValue(

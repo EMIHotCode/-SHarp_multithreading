@@ -1,0 +1,27 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:SignalR_Chat.Client.Desktop.ViewModels"
+        x:Class="SignalR_Chat.Client.Desktop.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="SignalR_Chat.Client.Desktop">
+
+    <Window.DataContext>
+        <vm:MainWindowViewModel/>
+    </Window.DataContext>
+    
+    <DockPanel LastChildFill="True">
+        <StackPanel Orientation="Horizontal" 
+                    DockPanel.Dock="Bottom">
+          <Label Target="{Binding ElementName=InputMessage}" 
+                 Content="Сообщение"/>  
+          <TextBox x:Name="InputMessage" 
+                   Text="{Binding Message}"/>
+          <Button Content="Отправить" 
+                  Command="{Binding CommandSend}"/>
+          
+        </StackPanel>
+        
+        <ListBox ItemsSource="{Binding OutputMessages}"/>
+    </DockPanel>
+</Window>

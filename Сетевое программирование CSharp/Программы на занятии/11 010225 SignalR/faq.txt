@@ -1,0 +1,6 @@
+Подкючили библиотеку Microsoft.AspNetCore.SignalR.Client для консольного клиента и Avalonia Клиента
+Подкючили библиотеку ReactiveUI.Fody  для Avalonia Клиента
+
+
+    
+
