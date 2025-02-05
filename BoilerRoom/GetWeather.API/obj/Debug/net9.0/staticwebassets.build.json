@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "WZYd9TbRg4Op/3GDiTShzUyVZl3c6BmVCNtNh2z6bi0=",
-  "Source": "WeatherClient.API",
-  "BasePath": "_content/WeatherClient.API",
+  "Hash": "2rcFB/HlRZTQX9l2r1gxivLCoZTJAx6fxzMP/x3h750=",
+  "Source": "GetWeather.API",
+  "BasePath": "_content/GetWeather.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

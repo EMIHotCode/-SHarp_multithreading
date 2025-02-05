@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\BoilerRoom.WebApi.props" />
+</Project>

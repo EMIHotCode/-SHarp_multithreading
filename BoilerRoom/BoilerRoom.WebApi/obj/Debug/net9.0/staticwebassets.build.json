@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "oayQAdOKz1E5yihu4VUA7PZjSMKn9xknXFVgEB9CWcs=",
+  "Source": "BoilerRoom.WebApi",
+  "BasePath": "_content/BoilerRoom.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

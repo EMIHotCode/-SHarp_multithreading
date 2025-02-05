@@ -1,0 +1,13 @@
+D:\share\обучение программированию\C# multithreading\BoilerRoom\BoilerRoom.Model\bin\Debug\net9.0\BoilerRoom.Model.deps.json
+D:\share\обучение программированию\C# multithreading\BoilerRoom\BoilerRoom.Model\bin\Debug\net9.0\BoilerRoom.Model.dll
+D:\share\обучение программированию\C# multithreading\BoilerRoom\BoilerRoom.Model\bin\Debug\net9.0\BoilerRoom.Model.pdb
+D:\share\обучение программированию\C# multithreading\BoilerRoom\BoilerRoom.Model\obj\Debug\net9.0\BoilerRoom.Model.csproj.AssemblyReference.cache
+D:\share\обучение программированию\C# multithreading\BoilerRoom\BoilerRoom.Model\obj\Debug\net9.0\BoilerRoom.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\share\обучение программированию\C# multithreading\BoilerRoom\BoilerRoom.Model\obj\Debug\net9.0\BoilerRoom.Model.AssemblyInfoInputs.cache
+D:\share\обучение программированию\C# multithreading\BoilerRoom\BoilerRoom.Model\obj\Debug\net9.0\BoilerRoom.Model.AssemblyInfo.cs
+D:\share\обучение программированию\C# multithreading\BoilerRoom\BoilerRoom.Model\obj\Debug\net9.0\BoilerRoom.Model.csproj.CoreCompileInputs.cache
+D:\share\обучение программированию\C# multithreading\BoilerRoom\BoilerRoom.Model\obj\Debug\net9.0\BoilerRoom.Model.sourcelink.json
+D:\share\обучение программированию\C# multithreading\BoilerRoom\BoilerRoom.Model\obj\Debug\net9.0\BoilerRoom.Model.dll
+D:\share\обучение программированию\C# multithreading\BoilerRoom\BoilerRoom.Model\obj\Debug\net9.0\refint\BoilerRoom.Model.dll
+D:\share\обучение программированию\C# multithreading\BoilerRoom\BoilerRoom.Model\obj\Debug\net9.0\BoilerRoom.Model.pdb
+D:\share\обучение программированию\C# multithreading\BoilerRoom\BoilerRoom.Model\obj\Debug\net9.0\ref\BoilerRoom.Model.dll

@@ -1,3 +1,29 @@
+Создание сервера Server. В расшириных настройках WebApi выбрали UseMinimalApi.
+
+Создали Слой Сервера BoilerRoom.WebAPI
+    - appsettings.json  строки подключения как и в BoilerRoom.DAL\appsettings.json
+    - автоматически подключается библиотека Microsoft.AspNetCore.OpenApi
+    
+Создали проект библиотка классов Library  BoilerRoom.Model
+    В нем классы описывающие данных Data Transfer Object (DTO) — объект передачи данных
+
+Создаем слой библиотка классов Library BoilerRoom.Dal  слой доступа к данным для работы с БД
+    В нем работаем через EntityFramework создаем миграцию
+    подключаем библиотеки
+        - MongoDB.EntityFrameworkCore - для работы с БД
+        - Microsoft.EntityFrameworkCore Version="9.0.1"
+        - EntityFrameworkCore.Tools которая содержит Designer
+        - Microsoft.Extensions.Configuration.Json
+        - Правильное написание строк подключения для разных баз данных https://www.connectionstrings.com/
+    class BoilerRoomContextFactory : IDesignTimeDbContextFactory<BoilerRoomContext>  // метод и класс который создают объект ToDoContext
+    создем файл appsettings.json
+    создаем миграцию для слоя BoilerRoom.DAL переходим в папку с файлом BoilerRoom.DAL.csproj
+        - используем комманду dotnet ef migrations add InitialCreate
+        - Миграция в C# — это функция в Entity Framework Core, которая позволяет последовательно применять изменения схемы к базе данных, чтобы синхронизировать её с моделью данных в приложении без потери существующих данных
+        - после создания миграции нужно ее выполнить dotnet ef database update (ошибка )
+    
+
+
 приложение работает с Sqlite
 подключен Microsoft.EntityFrameworkCore.Sqlite для работы с EntityFramework
 
