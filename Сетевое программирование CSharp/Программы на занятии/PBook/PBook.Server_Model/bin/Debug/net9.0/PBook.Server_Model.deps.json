@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "PBook.Server_Model/1.0.0": {
+        "runtime": {
+          "PBook.Server_Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PBook.Server_Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -2,6 +2,7 @@
 
 Создали Слой Сервера ToDo.WebAPI
     appsettings.json  строки подключения как и в ToDo.DAL\appsettings.json
+    
 Создали проект библиотка классов Library  ToDo.BL  в котором по хорошему надо создать Интерфейс (можно попозже)
     В нем реализуем методы получить все GetAll, добавить Add, GetByID, Update, Delete
     добавить Add не реализована ?????
@@ -10,16 +11,19 @@
 Создали проект библиотка классов Library     ToDo.Model
     В нем единственный класс class TaskDto  // Data Transfer Object (DTO) — объект передачи данных
 
-Создаем слой библиотка классов Library ToDo.Dal  слой доступа к данным для работы с БД
+Создаем слой библиотка классов Library ToDo.Dal  слой доступа к данным для работы с БД (наследуемся от : DbContext которая зависит от подключенной библиотеки EF )
     В нем работаем через EntityFramework создаем миграцию
     подключаем библиотеки
-        - EntityFrameworkCore.PostgresSQL - для работы с БД
+		- Microsoft.EntityFrameworkCore ??? (попробовать без нее) чтобы не ругалась при миграции на старую версию EF
+        - Npgsql.EntityFrameworkCore.PostgresSQL - для работы с БД
         - EntityFrameworkCore.Tools которая содержит Designer
+        - Microsoft.Extensions.Configuration.Json - для работы с файлом appsettings.json
     class ToDoContextFactory : IDesignTimeDbContextFactory<ToDoContext>  // метод и класс который создают объект ToDoContext
     создем файл appsettings.json
     создаем миграцию для слоя ToDo.DAL переходим в папку с файлом ToDo.DAL.csproj
         - используем комманду dotnet ef migrations add InitialCreate
-        - Миграция в C# — это функция в Entity Framework Core, которая позволяет последовательно применять изменения схемы к базе данных, чтобы синхронизировать её с моделью данных в приложении без потери существующих данных
+        - Миграция в C# — это функция в Entity Framework Core, которая позволяет последовательно применять изменения 
+            схемы к базе данных, чтобы синхронизировать её с моделью данных в приложении без потери существующих данных
         - после создания миграции нужно ее выполнить dotnet ef database update (ошибка )
 
 В программе используется PostgreSQL  БД todo_db схема test

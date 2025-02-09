@@ -1,0 +1,12 @@
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\PhoneBook\PhoneBook.Model\bin\Debug\net9.0\PhoneBook.Model.deps.json
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\PhoneBook\PhoneBook.Model\bin\Debug\net9.0\PhoneBook.Model.dll
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\PhoneBook\PhoneBook.Model\bin\Debug\net9.0\PhoneBook.Model.pdb
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\PhoneBook\PhoneBook.Model\obj\Debug\net9.0\PhoneBook.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\PhoneBook\PhoneBook.Model\obj\Debug\net9.0\PhoneBook.Model.AssemblyInfoInputs.cache
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\PhoneBook\PhoneBook.Model\obj\Debug\net9.0\PhoneBook.Model.AssemblyInfo.cs
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\PhoneBook\PhoneBook.Model\obj\Debug\net9.0\PhoneBook.Model.csproj.CoreCompileInputs.cache
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\PhoneBook\PhoneBook.Model\obj\Debug\net9.0\PhoneBook.Model.sourcelink.json
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\PhoneBook\PhoneBook.Model\obj\Debug\net9.0\PhoneBook.Model.dll
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\PhoneBook\PhoneBook.Model\obj\Debug\net9.0\refint\PhoneBook.Model.dll
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\PhoneBook\PhoneBook.Model\obj\Debug\net9.0\PhoneBook.Model.pdb
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\PhoneBook\PhoneBook.Model\obj\Debug\net9.0\ref\PhoneBook.Model.dll

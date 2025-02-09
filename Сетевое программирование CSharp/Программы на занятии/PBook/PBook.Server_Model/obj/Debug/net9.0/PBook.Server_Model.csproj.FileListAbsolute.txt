@@ -1,0 +1,12 @@
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\PBook\PBook.Server_Model\bin\Debug\net9.0\PBook.Server_Model.deps.json
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\PBook\PBook.Server_Model\bin\Debug\net9.0\PBook.Server_Model.dll
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\PBook\PBook.Server_Model\bin\Debug\net9.0\PBook.Server_Model.pdb
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\PBook\PBook.Server_Model\obj\Debug\net9.0\PBook.Server_Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\PBook\PBook.Server_Model\obj\Debug\net9.0\PBook.Server_Model.AssemblyInfoInputs.cache
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\PBook\PBook.Server_Model\obj\Debug\net9.0\PBook.Server_Model.AssemblyInfo.cs
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\PBook\PBook.Server_Model\obj\Debug\net9.0\PBook.Server_Model.csproj.CoreCompileInputs.cache
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\PBook\PBook.Server_Model\obj\Debug\net9.0\PBook.Server_Model.sourcelink.json
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\PBook\PBook.Server_Model\obj\Debug\net9.0\PBook.Server_Model.dll
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\PBook\PBook.Server_Model\obj\Debug\net9.0\refint\PBook.Server_Model.dll
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\PBook\PBook.Server_Model\obj\Debug\net9.0\PBook.Server_Model.pdb
+D:\share\обучение программированию\C# multithreading\Сетевое программирование CSharp\Программы на занятии\PBook\PBook.Server_Model\obj\Debug\net9.0\ref\PBook.Server_Model.dll

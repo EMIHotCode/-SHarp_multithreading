@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PBook.Server_WebApi", "PBook.Server_WebApi\PBook.Server_WebApi.csproj", "{2F0E832B-784C-4790-97E9-8C24732A4B2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{B052D3C4-41EF-4FB7-91FB-993D1EBC579C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PBook.Server_Model", "PBook.Server_Model\PBook.Server_Model.csproj", "{EDA3C4C3-6806-4183-B890-63E07EC5C7D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PBook.Server_DAL.Postgres", "PBook.Server_DAL.Postgres\PBook.Server_DAL.Postgres.csproj", "{F19C9455-B612-4F29-94E4-EF4F2B38A648}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PBook.Server_BL", "PBook.Server_BL\PBook.Server_BL.csproj", "{C27C5915-2565-4E22-A102-61567ECCDE04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F0E832B-784C-4790-97E9-8C24732A4B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F0E832B-784C-4790-97E9-8C24732A4B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F0E832B-784C-4790-97E9-8C24732A4B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F0E832B-784C-4790-97E9-8C24732A4B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDA3C4C3-6806-4183-B890-63E07EC5C7D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDA3C4C3-6806-4183-B890-63E07EC5C7D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDA3C4C3-6806-4183-B890-63E07EC5C7D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDA3C4C3-6806-4183-B890-63E07EC5C7D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F19C9455-B612-4F29-94E4-EF4F2B38A648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F19C9455-B612-4F29-94E4-EF4F2B38A648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F19C9455-B612-4F29-94E4-EF4F2B38A648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F19C9455-B612-4F29-94E4-EF4F2B38A648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C27C5915-2565-4E22-A102-61567ECCDE04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C27C5915-2565-4E22-A102-61567ECCDE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C27C5915-2565-4E22-A102-61567ECCDE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C27C5915-2565-4E22-A102-61567ECCDE04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDA3C4C3-6806-4183-B890-63E07EC5C7D6} = {B052D3C4-41EF-4FB7-91FB-993D1EBC579C}
+		{2F0E832B-784C-4790-97E9-8C24732A4B2C} = {B052D3C4-41EF-4FB7-91FB-993D1EBC579C}
+		{F19C9455-B612-4F29-94E4-EF4F2B38A648} = {B052D3C4-41EF-4FB7-91FB-993D1EBC579C}
+		{C27C5915-2565-4E22-A102-61567ECCDE04} = {B052D3C4-41EF-4FB7-91FB-993D1EBC579C}
+	EndGlobalSection
+EndGlobal

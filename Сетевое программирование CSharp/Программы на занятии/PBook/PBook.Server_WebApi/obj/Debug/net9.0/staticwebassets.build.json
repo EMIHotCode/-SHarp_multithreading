@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "xtO/jQPn0ESpCAzCLpcLrmvAwayGVwEBrPxQAwD8Kk4=",
+  "Source": "PBook.Server_WebApi",
+  "BasePath": "_content/PBook.Server_WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

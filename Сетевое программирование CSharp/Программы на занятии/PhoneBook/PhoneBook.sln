@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook.WebApi", "PhoneBook.WebApi\PhoneBook.WebApi.csproj", "{10AA656A-ADC4-42A6-BBBB-381A596D8E3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{8A2E8B9C-C9AA-4057-A759-07548643AC04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook.Model", "PhoneBook.Model\PhoneBook.Model.csproj", "{80AC2756-E1A5-47E8-B892-4416A6B9CD2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook.DAL.Postgres", "PhoneBook.DAL.Postgres\PhoneBook.DAL.Postgres.csproj", "{5B1EB426-2F7A-413D-BF62-D9F00E6E78C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook.BL", "PhoneBook.BL\PhoneBook.BL.csproj", "{AAC13628-715E-4EF6-BB7D-5EFA996FF138}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10AA656A-ADC4-42A6-BBBB-381A596D8E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10AA656A-ADC4-42A6-BBBB-381A596D8E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10AA656A-ADC4-42A6-BBBB-381A596D8E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10AA656A-ADC4-42A6-BBBB-381A596D8E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80AC2756-E1A5-47E8-B892-4416A6B9CD2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80AC2756-E1A5-47E8-B892-4416A6B9CD2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80AC2756-E1A5-47E8-B892-4416A6B9CD2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80AC2756-E1A5-47E8-B892-4416A6B9CD2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B1EB426-2F7A-413D-BF62-D9F00E6E78C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B1EB426-2F7A-413D-BF62-D9F00E6E78C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B1EB426-2F7A-413D-BF62-D9F00E6E78C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B1EB426-2F7A-413D-BF62-D9F00E6E78C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC13628-715E-4EF6-BB7D-5EFA996FF138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC13628-715E-4EF6-BB7D-5EFA996FF138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC13628-715E-4EF6-BB7D-5EFA996FF138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC13628-715E-4EF6-BB7D-5EFA996FF138}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80AC2756-E1A5-47E8-B892-4416A6B9CD2C} = {8A2E8B9C-C9AA-4057-A759-07548643AC04}
+		{5B1EB426-2F7A-413D-BF62-D9F00E6E78C7} = {8A2E8B9C-C9AA-4057-A759-07548643AC04}
+		{AAC13628-715E-4EF6-BB7D-5EFA996FF138} = {8A2E8B9C-C9AA-4057-A759-07548643AC04}
+		{10AA656A-ADC4-42A6-BBBB-381A596D8E3A} = {8A2E8B9C-C9AA-4057-A759-07548643AC04}
+	EndGlobalSection
+EndGlobal

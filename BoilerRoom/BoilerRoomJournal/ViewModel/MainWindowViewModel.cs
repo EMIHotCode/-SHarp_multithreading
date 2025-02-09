@@ -20,7 +20,8 @@ public class MainWindowViewModel : ViewModelBase
     public string Temperature { get; set; }
     
     public ICommand CommandSave { get; }
-
+public string Test { get; }
+    //конструктор
     public MainWindowViewModel()
     {
         var connectionString = App.Current.Resources["ConnectionString"] as string; // as string - вернет null в случае чего который нужно будет обрабатывать, ToString() - выкинет исключение если null которое нужно обрабатывать
@@ -31,6 +32,7 @@ public class MainWindowViewModel : ViewModelBase
 
         InitJournalPages(_db.JournalPages);
         InitEmployees(_db.Employees);
+        Test = "Hello";
     }
 
     private void InitJournalPages(IEnumerable<JournalPage>? journalPages)

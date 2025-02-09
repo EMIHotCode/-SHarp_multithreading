@@ -1,0 +1,9 @@
+В слое DAL\Configuration создал конфигурации для коллекций DbSet<Person>  DbSet<Phone>
+И в DBContext добавил метод подхватывающий эти конфигурации
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.ApplyConfiguration(new PersonConfiguration());
+        modelBuilder.ApplyConfiguration(new PhoneConfiguration());
+        
+        base.OnModelCreating(modelBuilder);
+    }

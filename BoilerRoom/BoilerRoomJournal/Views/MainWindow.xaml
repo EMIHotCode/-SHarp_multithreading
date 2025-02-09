@@ -4,9 +4,13 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BoilerRoomJournal"
+        xmlns:vm="clr-namespace:BoilerRoomJournal.ViewModel"
         mc:Ignorable="d"
+        
         Title="Журнал оператора котельной" Height="450" Width="800" >
-   
+   <Window.DataContext>
+       <vm:MainWindowViewModel/>
+   </Window.DataContext>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -77,10 +81,11 @@
             <TextBlock Grid.Row="0" Grid.Column="4" TextWrapping="Wrap" FontSize="16">Расход воды по часам. м³</TextBlock>
             
             <TextBlock Grid.Row="1" Grid.Column="0" FontSize="16">8:00</TextBlock>
-            <TextBox Grid.Row="1" Grid.Column="1" FontSize="16"></TextBox>
-            <TextBox Grid.Row="1" Grid.Column="2" FontSize="16"></TextBox>
-            <TextBox Grid.Row="1" Grid.Column="3" FontSize="16"></TextBox>
-            <TextBox Grid.Row="1" Grid.Column="4" FontSize="16"></TextBox>
+            <TextBox Grid.Row="1" Grid.Column="1" FontSize="16" 
+                     Text="{Binding Test, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            <TextBox Grid.Row="1" Grid.Column="2" FontSize="16"/>
+            <TextBox Grid.Row="1" Grid.Column="3" FontSize="16"/>
+            <TextBox Grid.Row="1" Grid.Column="4" FontSize="16"/>
             
             <TextBlock Grid.Row="2" Grid.Column="0" FontSize="16">11:00</TextBlock>
             <TextBox Grid.Row="2" Grid.Column="1" FontSize="16"></TextBox>

@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "4qt0ph2o0Sc=",
+  "success": false,
+  "projectFilePath": "D:\\share\\обучение программированию\\C# multithreading\\Сетевое программирование CSharp\\Программы на занятии\\LerningEFandAPI\\PhoneBook.WebApi\\PhoneBook.WebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.1\\microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\share\\обучение программированию\\C# multithreading\\Сетевое программирование CSharp\\Программы на занятии\\LerningEFandAPI\\PhoneBook.BL\\PhoneBook.BL.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\share\\обучение программированию\\C# multithreading\\Сетевое программирование CSharp\\Программы на занятии\\LerningEFandAPI\\PhoneBook.BL\\PhoneBook.BL.csproj",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}

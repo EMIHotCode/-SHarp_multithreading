@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BoilerRoom.Dal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ccfbed389eb1f625dd4cfcb37494a19e0b5e933a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90f720aa1059ced32633472c68ff72c77db36cfc")]
 [assembly: System.Reflection.AssemblyProductAttribute("BoilerRoom.Dal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BoilerRoom.Dal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
